@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: fin-pfe-webstack-kro-rg
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/fin-platform-team/fin-web-app-stack
+    targetRevision: HEAD
+    path: web-stack
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
