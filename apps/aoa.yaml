@@ -21,7 +21,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: hhttps://github.com/fin-platform-team/fin-claims-aoa
+    repoURL: https://github.com/fin-platform-team/fin-claims-aoa
     targetRevision: HEAD
     path: patterns
   destination:
