@@ -12,3 +12,18 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: default
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: fin-pfe-patterns
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: hhttps://github.com/fin-platform-team/fin-claims-aoa
+    targetRevision: HEAD
+    path: patterns
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
