@@ -9,6 +9,8 @@ spec:
     repoURL: https://github.com/fin-platform-team/fin-argo-apps
     targetRevision: HEAD
     path: claims
+    directory:
+      recurse: true
   destination:
     server: https://kubernetes.default.svc
     namespace: default
@@ -24,6 +26,8 @@ spec:
     repoURL: https://github.com/fin-platform-team/fin-argo-apps
     targetRevision: HEAD
     path: patterns
+    directory:
+      recurse: true
   destination:
     server: https://kubernetes.default.svc
     namespace: default
