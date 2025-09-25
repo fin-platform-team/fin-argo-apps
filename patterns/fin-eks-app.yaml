@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: fin-pfe-webstack-kro-rg
+  name: fin-pfe-eks-cluster-kro-rg
   namespace: argocd
 spec:
   project: default
