@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/fin-platform-team/fin-web-app-stack
+    repoURL: https://github.com/fin-platform-team/fin-patterns
     targetRevision: HEAD
     path: web-stack
   destination:
