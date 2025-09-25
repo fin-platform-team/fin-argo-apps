@@ -1,5 +1,7 @@
 # Fin - Argo Applications
 
+![ArgoCD](https://argo-cd.readthedocs.io/en/stable/assets/logo.png)
+
 Repo to watch for new claims and create Apps in ArgoCD
 
 ### Directory structure
