@@ -1,6 +1,4 @@
-# Fin - Argo Applications
-
-![ArgoCD](https://argo-cd.readthedocs.io/en/stable/assets/logo.png)
+# <img src="https://argo-cd.readthedocs.io/en/stable/assets/logo.png" width="25" height="25" /> Fin - Argo Applications
 
 Repo to watch for new claims and create Apps in ArgoCD
 
