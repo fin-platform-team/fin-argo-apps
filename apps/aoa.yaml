@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/fin-platform-team/fin-caas-app-dev-env
+    repoURL: https://github.com/fin-platform-team/fin-argo-apps
     targetRevision: HEAD
     path: claims
   destination:
@@ -21,7 +21,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/fin-platform-team/fin-claims-aoa
+    repoURL: https://github.com/fin-platform-team/fin-argo-apps
     targetRevision: HEAD
     path: patterns
   destination:
